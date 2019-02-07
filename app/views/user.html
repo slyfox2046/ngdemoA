@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-2">
+    <div class="list-group">
+      <a ui-sref="user.useradmin" ng-click="changeTabName('useradmin')" ng-class="{true:'list-group-item active',false:'list-group-item'}[userTab.name=='useradmin']">用户管理</a>
+      <a ui-sref="user.usersearch" ng-click="changeTabName('usersearch')" ng-class="{true:'list-group-item active',false:'list-group-item'}[userTab.name=='usersearch']">用户搜索</a>
+      <a ui-sref="user.useradd" ng-click="changeTabName('useradd')" ng-class="{true:'list-group-item active',false:'list-group-item'}[userTab.name=='useradd']">添加用户</a>
+    </div>
+  </div>
+
+  <div ui-view=""></div>
+
+
+
+</div>

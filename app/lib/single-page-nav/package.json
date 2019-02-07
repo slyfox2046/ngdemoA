@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "single-page-nav",
+        "scope": null,
+        "escapedName": "single-page-nav",
+        "name": "single-page-nav",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\workspace\\AG\\ngdemo"
+    ]
+  ],
+  "_from": "single-page-nav@latest",
+  "_id": "single-page-nav@1.0.0",
+  "_inCache": true,
+  "_location": "/single-page-nav",
+  "_nodeVersion": "10.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/single-page-nav_1.0.0_1531518784258_0.6310077782636503"
+  },
+  "_npmUser": {
+    "name": "ahmeti",
+    "email": "ahmet363@gmail.com"
+  },
+  "_npmVersion": "6.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "single-page-nav",
+    "scope": null,
+    "escapedName": "single-page-nav",
+    "name": "single-page-nav",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/single-page-nav/-/single-page-nav-1.0.0.tgz",
+  "_shasum": "b2c6c480e7e3879a7c1064a5187212549cb18bb1",
+  "_shrinkwrap": null,
+  "_spec": "single-page-nav",
+  "_where": "D:\\workspace\\AG\\ngdemo",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ChrisWojcik/single-page-nav/issues"
+  },
+  "dependencies": {},
+  "description": "Apply the 'singlePageNav' function to a container element. Clicking on any links within the container will cause an animated scroll down to the element whose ID is identified by that link's \"hash\" (if it exists). The  currently highlighted link in the nav",
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-hKRa5idHJYsb65NqAGmPeqfcDUOHh8a63+fUL6yuCc5n8ssgEgfSTbucxoYshlL6StUoRHFh7xfEBJc+h/kIag==",
+    "shasum": "b2c6c480e7e3879a7c1064a5187212549cb18bb1",
+    "tarball": "https://registry.npmjs.org/single-page-nav/-/single-page-nav-1.0.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 113060,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbSR9ACRA9TVsSAnZWagAAPOUP/2Lc2l/rsTVdftPDFNPW\n23Hi64ad42znbaPnI5C/xa1aY95dbuhbySQOy/tuLvxnc+QDa+VMHgLlEtQl\nvIrQl0VPK6KIHZUrPw/1OXr32bn4WpBDqOUCSzA6ieRvX6TWa/5tNKt9vpWM\n1KfegN1jIYqNBd5pfcYXGTkv2bEiXXUSTcMTjjV8jC9Dv5tKEPxYePC3TF1X\n7HcIYWiZWROzoG6DIrNmklvsVetj9nPUEePfHtjkruiKP87zLWv8rysDMT0b\nsSBK9aoyCsiVDAFkapVt4NvoYsApryPFcV2ioZFxDJqpV5T2C1ZlgrBxL6e6\niWxkzceg5HQvkgax3xL570aq6Xtz+QAlmwMUshDyXQka2irDFRdkY3bTuiQQ\nRuzNTXwXP5QCmbz6zIqi2r0uWvE/D92JSLLM+DvlaoBDHh+h+SUfAfm3zTvd\nZBFB5e/iDyD++96Fyz+VAoEMs+xfIQjsjHw8nmmaDuQ+hUTaQz/j2emkQ51N\nVdOyKjQHM8PSreefCe5Yx5ZIKpVvdP91kDnNwI8SVOCvWeY6dAglG0cGILI6\n9b1186Cid1yIsGn+G8cPb4t8EXmopYZCsmrTWzllDxAH+i460gGjD5dXUAZ4\ntACdbyYzPnuKgmBUQFGv/VouYeWm6K/AKJL8SiFgqM5Hw4WBUpDQ6uV00t57\nBSu7\r\n=rEch\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "homepage": "https://github.com/ChrisWojcik/single-page-nav#readme",
+  "license": "ISC",
+  "main": "jquery.singlePageNav.js",
+  "maintainers": [
+    {
+      "name": "ahmeti",
+      "email": "ahmet363@gmail.com"
+    }
+  ],
+  "name": "single-page-nav",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisWojcik/single-page-nav.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
