@@ -3,9 +3,9 @@
     <h1>用户管理</h1>
   </div>
   <ul class="nav nav-tabs" id="userTab">
-    <li class="active"><a href="" data-toggle="tab">用户列表</a></li>
-    <li ><a href="" data-toggle="tab">用户搜索</a></li>
-    <li ><a href="" data-toggle="tab">添加用户</a></li>
+    <li class="active"><a ng-click=goUrl('user.useradmin') data-toggle="tab">用户管理</a></li>
+    <li ><a ng-click=goUrl('user.usersearch') data-toggle="tab">用户搜索</a></li>
+    <li ><a ng-click=goUrl('user.useradd') data-toggle="tab">添加用户</a></li>
   </ul>
   <table class="table">
     <thead>

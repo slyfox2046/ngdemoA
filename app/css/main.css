@@ -19,6 +19,15 @@ body {
   /*font-weight: bold;*/
   font-size: 16px;
 }
+
+.usersearch{
+  padding: 10px;
+  /*border:solid #ddd;*/
+  /*border-top: none;*/
+  /*border-bottom: none;*/
+}
+
+
 .footer{
   font-weight: 400;
   text-align: center;
