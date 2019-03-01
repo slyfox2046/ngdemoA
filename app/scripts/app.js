@@ -32,6 +32,7 @@ angular
       .state('main', {
         url: '/main',
         templateUrl: '../views/main.html',
+        controller:'MainCtrl'
       })
       .state('user', {
         url: '/user',
