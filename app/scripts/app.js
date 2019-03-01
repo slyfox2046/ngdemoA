@@ -19,7 +19,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'ngMdIcons',
-    'ui.router'
+    'ui.router',
+    'ui.bootstrap'
 
   ])
 
@@ -37,6 +38,12 @@ angular
         templateUrl: '../views/user.html',
         controller: 'userAdminCtrl'
       })
+      .state('useradmin', {
+        url: '/useradmin',
+        templateUrl: '../views/useradmin.html',
+        controller: 'userAdminCtrl'
+      })
+
       .state('user.useradmin', {
         url: '/useradmin',
         templateUrl: '../views/user_admin.html',
